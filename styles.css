@@ -1,0 +1,72 @@
+:root{
+    --gridRow :16;
+    --gridColumn :var(--gridRow);
+    --backgroundColor : #ededed;
+    --gridElementSize: 30px;  
+     
+}
+
+body,html{
+    margin:0;
+    padding:0;
+    font-family: 'Press Start 2P', cursive;
+    background: #272727;
+}
+
+h1{
+    text-align: center;
+    color: #FF652f;
+}
+.size{
+    color:#ffe400;
+    text-align: center;
+}
+
+.slider{
+    -webkit-appearance:none;
+    appearance: none;
+    height:10px;
+    background: #45b5a0;
+    
+}
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    height:20px;
+    width: 20px;
+    background: #ffe400;
+}
+.slider::-moz-range-thumb{
+    appearance: none;
+    height:20px;
+    width: 20px;
+    background: #ffe400;
+}
+
+
+.grid-style{
+    border:0.5rem solid #45b5a0;
+    max-width: 500px;
+    min-height:500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(var(--gridColumn),1fr);
+    grid-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.grid-element{
+    border:1px solid #272727;
+    height:100%;
+    background-color: var(--backgroundColor);
+    
+}
+
+footer{
+    font-size: 14px;
+    text-align: center;
+    color:#FF652f;
+}
