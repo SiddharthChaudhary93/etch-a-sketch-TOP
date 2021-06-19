@@ -9,3 +9,5 @@ The colors are automatically applied based on a random function and the event li
 * height of the individial div element
 * do not need both grid-template-column and the row
 * max-width and min height for the grid to fix its size
+
+https://siddharthchaudhary93.github.io/etch-a-sketch-TOP/
